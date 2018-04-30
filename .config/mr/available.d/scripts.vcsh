@@ -1,0 +1,16 @@
+[Scripts]
+checkout = 
+    git clone https://github.com/crazzyfool/scripts.git ~/Scripts
+
+update = 
+    cd ~/Scripts
+    git pull
+
+push = 
+    cd ~/Scripts
+    git push
+
+status = 
+    cd ~/Scripts
+    git status
+

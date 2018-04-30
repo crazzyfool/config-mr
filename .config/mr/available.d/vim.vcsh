@@ -1,0 +1,12 @@
+[$HOME/.config/vcsh/repo.d/config-vim.git]
+checkout = 
+    git clone https://github.com/amix/vimrc.git --separate-git-dir ~/.config/vcsh/repo.d/config-vim.git ~/.vim_runtime
+    sh ~/.vim_runtime/install_awesome_vimrc.sh
+
+update = 
+    cd ~/.vim_runtime
+    git pull --rebase
+
+status = 
+    cd ~/.vim_runtime
+    git status

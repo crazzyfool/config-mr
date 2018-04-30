@@ -1,0 +1,6 @@
+[$HOME/.config/vcsh/repo.d/config-i3.git]
+checkout = vcsh clone https://github.com/crazzyfool/config-i3.git config-i3
+update = vcsh config-i3 pull 
+push = vcsh config-i3 push
+status = vcsh config-i3 status
+gc = vcsh config-i3 gc
